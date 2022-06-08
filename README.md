@@ -59,7 +59,7 @@ Esta es la información que tenemos dxl clientx:
 >
 > Tenemos 2 menús: uno muy sencillo para el desayuno:
 >
-> | Ítem                      |Precio $|
+> | Ítem                      |price $|
 > |---------------------------|------|
 > | Café americano            |    5 |
 > | Café con leche            |    7 |
@@ -68,7 +68,7 @@ Esta es la información que tenemos dxl clientx:
 >
 > Y otro menú para el resto del día:
 >
-> | Ítem                      |Precio|
+> | Ítem                      |price|
 > |---------------------------|------|
 > |**Hamburguesas**           |   **$**   |
 > |Hamburguesa simple         |    10|

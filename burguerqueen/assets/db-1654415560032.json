@@ -1,0 +1,88 @@
+{
+  "products": [
+    {
+      "id": "42524",
+      "name": "Café americano",
+      "price": 5,
+      "img": "https://i.imgur.com/Xwjr41m.jpg",
+      "type": "Para tomar"
+    },
+    {
+      "id": "81885",
+      "name": "Café con leche",
+      "price": 7,
+      "img": "https://i.imgur.com/iZG5sQC.jpg",
+      "type": "Para tomar"
+    },
+    {
+      "id": "98860",
+      "name": "Sandwich de jamón y queso",
+      "price": 10,
+      "img": "https://i.imgur.com/Raxcq1I.jpg",
+      "type": "Sandwich"
+    },
+    {
+      "id": "49533",
+      "name": "Jugo de frutas natural",
+      "price": 7,
+      "img": "https://i.imgur.com/yriksg7.jpg",
+      "type": "Para tomar"
+    },
+    {
+      "id": "85458",
+      "name": "Hamburguesa simple",
+      "price": 10,
+      "img": "https://i.imgur.com/xw7xFV6.jpg",
+      "type": "Hamburguesa"
+    },
+    {
+      "id": "53400",
+      "name": "Hamburguesa doble",
+      "price": 15,
+      "img": "https://i.imgur.com/9uaIJno.jpg",
+      "type": "Hamburguesa"
+    },
+    {
+      "id": "79327",
+      "name": "Papas fritas",
+      "price": 5,
+      "img": "https://i.imgur.com/NZRHrxN.jpg",
+      "type": "Acompañamiento"
+    },
+    {
+      "id": "42585",
+      "name": "Aros de cebolla",
+      "price": 5,
+      "img": "https://i.imgur.com/ZsOIG71.jpg",
+      "type": "Acompañamiento"
+    },
+    {
+      "id": "36432",
+      "name": "Agua 500ml",
+      "price": 5,
+      "img": "https://i.imgur.com/ojp58zR.jpg",
+      "type": "Para tomar"
+    },
+    {
+      "id": "14836",
+      "name": "Agua 750ml",
+      "price": 7,
+      "img": "https://i.imgur.com/ojp58zR.jpg",
+      "type": "Para tomar"
+    },
+    {
+      "id": "92279",
+      "name": "Bebida/gaseosa 500ml",
+      "price": 7,
+      "img": "https://i.imgur.com/84Owdjm.jpg",
+      "type": "Para tomar"
+    },
+    {
+      "id": "33548",
+      "name": "Bebida/gaseosa 750ml",
+      "price": 10,
+      "img": "https://i.imgur.com/84Owdjm.jpg",
+      "type": "Para tomar"
+    }
+  ]
+}
