@@ -1,0 +1,158 @@
+/* 
+C30000  RED 
+FF3D00  ORANGE 
+FFA06D  ORANGE LIGHT  
+383433  GRAY
+
+*/
+
+* {
+  font-family: "Andika", sans-serif;
+  color: #383433;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: 0px;
+  overflow: hidden;
+}
+h1{
+  font-size: 25px;
+}
+
+.mainContainer {
+  background-color: #ffa06d;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  
+}
+
+.leftSection {
+  /* background-color: rgb(92, 92, 196); */
+  width: 66%;
+  height: 85%;
+  margin: 24px 12px 24px 24px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.upperLeftSection {
+  /* background-color: rgb(189, 92, 196); */
+  width: 100%;
+  height: 25%;
+}
+
+.menuBtns, .clientTable{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+  padding:4px;
+
+}
+
+.clientTable{
+  margin-top: 24px;
+}
+
+input:focus {
+  outline: none;
+  }
+
+.clientName, .tableNum{
+  height: 35px;
+  border: none;
+  padding: 8px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.tableNum{
+  width: 50px;
+  text-align: center;
+}
+
+.lowLeftSection {
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  width: 100%;
+  height: 75%;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	align-content: flex-start;
+
+}
+
+
+.rightSection {
+  background-color: rgb(255, 255, 255);
+  width: 33.34%;
+  height: 80%;
+  margin: 24px 24px 24px 12px;
+  border-radius: 25px;
+  padding: 16px 32px;
+}
+
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+/* C30000  RED 
+FF3D00  ORANGE 
+FFA06D  ORANGE LIGHT  
+383433  GRAY */
+
+.btnBreakfast,
+.btnDinner {
+  background-color: #fff;
+  border: 2px solid #c30000;
+  border-radius: 30px;
+  box-shadow: #c30000 2px 2px 0 0;
+  color: #c30000;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btnBreakfast:active {
+  background-color: #ff3d00;
+  box-shadow: #c30000 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+.btnBreakfast:hover {
+  background-color: #ff3d00;
+  color: #fff;
+
+}
+.btnDinner:active {
+  background-color: #ff3d00;
+  box-shadow: #c30000 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+.btnDinner:hover {
+  background-color: #ff3d00;
+  color: #fff;
+}

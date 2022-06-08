@@ -1,0 +1,16 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0px;
+}
+
+.error404 {
+    width: auto;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-repeat: no-repeat;
+}
