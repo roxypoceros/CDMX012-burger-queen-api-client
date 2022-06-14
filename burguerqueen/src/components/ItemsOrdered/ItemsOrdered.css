@@ -1,0 +1,28 @@
+/* 
+C30000  RED 
+FF3D00  ORANGE 
+FFA06D  ORANGE LIGHT  
+383433  GRAY 
+*/
+* {
+    font-family: "Andika", sans-serif;
+    color: #383433;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0px;
+}
+
+h3 {
+    height: 30px;
+    min-width: 40px;
+    font-size: 22px;
+    text-align: center;
+    padding: 3px 2px
+  }
+
+.itemCounter{
+    min-width: 15%;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}

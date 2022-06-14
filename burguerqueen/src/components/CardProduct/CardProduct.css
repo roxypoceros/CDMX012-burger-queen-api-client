@@ -5,19 +5,19 @@
   margin: 0px;
   box-sizing: 0px;
 }
-h1 {
-  font-size: 25px;
+h4 {
+  font-size: 14px;
 }
 h2 {
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .completeCard {
-  background-color: #d9d9d9;
+  /* background-color: #2c925d; */
   outline: solid #ff3d00 3px;
   border-radius: 20px 20px 0px 0px;
   width: 33.33%;
-  height: 40%;
+  min-height: 40%;
   margin: 24px;
   text-align: center;
 }
@@ -29,6 +29,8 @@ h2 {
   color: #fff;
 }
 
-.foodSample {
-  width:45%;
+.foodImg {
+  width:55%;
+  padding: 8px;
+  border-radius:5px ;
 }

@@ -1,99 +1,88 @@
 {
-    "products": [
-        {
-            "id": "1",
-            "name": "Café americano",
-            "price": "5",
-            "img": "https://imgur.com/Xwjr41m",
-            "type": "Para tomar"
-        },
-        {
-            "id": "2",
-            "name": "Café con leche",
-            "price": "7",
-            "img": "https://i.imgur.com/iZG5sQC.jpg",
-            "type": "Para tomar"
-
-        },
-        {
-            "id": "3",
-            "name": "Sandwich de jamón y queso",
-            "price": "10",
-            "img": "https://i.imgur.com/Raxcq1I.jpg",
-            "type": "Sandwich"
-
-        },
-        {
-            "id": "4",
-            "name": "Jugo de frutas natural",
-            "price": "7",
-            "img": "https://i.imgur.com/yriksg7.jpg",
-            "type": "Para tomar"
-
-        },
-        {
-            "id": "5",
-            "name": "Hamburguesa simple",
-            "price": "10",
-            "img": "https://i.imgur.com/xw7xFV6.jpg",
-            "type": "Hamburguesa"
-
-        },
-        {
-            "id": "6",
-            "name": "Hamburguesa doble",
-            "price": "15",
-            "img": "https://i.imgur.com/9uaIJno.jpg",
-            "type": "Hamburguesa"
-
-        },
-        {
-            "id": "7",
-            "name": "Papas fritas",
-            "price": "5",
-            "img": "https://i.imgur.com/NZRHrxN.jpg",
-            "type": "Acompañamiento"
-
-        },
-        {
-            "id": "8",
-            "name": "Aros de cebolla",
-            "price": "5",
-            "img": "https://i.imgur.com/ZsOIG71.jpg",
-            "type": "Acompañamiento"
-
-        },
-        {
-            "id": "9",
-            "name": "Agua 500ml",
-            "price": "5",
-            "img": "https://i.imgur.com/ojp58zR.jpg",
-            "type": "Para tomar"
-
-        },
-        {
-            "id": "10",
-            "name": "Agua 750ml",
-            "price": "7",
-            "img": "https://i.imgur.com/ojp58zR.jpg",
-            "type": "Para tomar"
-
-        },
-        {
-            "id": "11",
-            "name": "Bebida/gaseosa 500ml",
-            "price": "7",
-            "img": "https://i.imgur.com/84Owdjm.jpg",
-            "type": "Para tomar"
-
-        },
-        {
-            "id": "12",
-            "name": "Bebida/gaseosa 750ml",
-            "price": "10",
-            "img": "https://i.imgur.com/84Owdjm.jpg",
-            "type": "Para tomar"
-
-        }
-    ]
+  "products": [
+    {
+      "id": "1",
+      "name": "Café americano",
+      "price": 5,
+      "img": "https://i.imgur.com/Xwjr41m.jpg",
+      "type": "breakfast"
+    },
+    {
+      "id": "2",
+      "name": "Café con leche",
+      "price": 7,
+      "img": "https://i.imgur.com/iZG5sQC.jpg",
+      "type": "breakfast"
+    },
+    {
+      "id": "3",
+      "name": "Sandwich de jamón y queso",
+      "price": 10,
+      "img": "https://i.imgur.com/Raxcq1I.jpg",
+      "type": "breakfast"
+    },
+    {
+      "id": "4",
+      "name": "Jugo de frutas natural",
+      "price": 7,
+      "img": "https://i.imgur.com/yriksg7.jpg",
+      "type": "breakfast"
+    },
+    {
+      "id": "5",
+      "name": "Hamburguesa simple",
+      "price": 10,
+      "img": "https://i.imgur.com/xw7xFV6.jpg",
+      "type": "dinner"
+    },
+    {
+      "id": "6",
+      "name": "Hamburguesa doble",
+      "price": 15,
+      "img": "https://i.imgur.com/9uaIJno.jpg",
+      "type": "dinner"
+    },
+    {
+      "id": "7",
+      "name": "Papas fritas",
+      "price": 5,
+      "img": "https://i.imgur.com/NZRHrxN.jpg",
+      "type": "dinner"
+    },
+    {
+      "id": "8",
+      "name": "Aros de cebolla",
+      "price": 5,
+      "img": "https://i.imgur.com/ZsOIG71.jpg",
+      "type": "dinner"
+    },
+    {
+      "id": "9",
+      "name": "Agua 500ml",
+      "price": 5,
+      "img": "https://i.imgur.com/ojp58zR.jpg",
+      "type": "dinner"
+    },
+    {
+      "id": "10",
+      "name": "Agua 750ml",
+      "price": 7,
+      "img": "https://i.imgur.com/ojp58zR.jpg",
+      "type": "dinner"
+    },
+    {
+      "id": "11",
+      "name": "Bebida/gaseosa 500ml",
+      "price": 7,
+      "img": "https://i.imgur.com/84Owdjm.jpg",
+      "type": "dinner"
+    },
+    {
+      "id": "12",
+      "name": "Bebida/gaseosa 750ml",
+      "price": 10,
+      "img": "https://i.imgur.com/84Owdjm.jpg",
+      "type": "dinner"
+    }
+  ]
 }

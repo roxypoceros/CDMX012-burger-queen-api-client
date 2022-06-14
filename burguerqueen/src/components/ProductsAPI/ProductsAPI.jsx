@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react"
+import React, { useEffect } from "react"
 import CardProduct from "../CardProduct/CardProduct"
 
-function ProductsAPI() {
-  let [products, setProducts] = useState()
+function ProductsAPI({products,setProducts}) {
+  
 
   let getData = async () => {
     let url = `http://localhost:4000/products`
