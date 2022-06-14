@@ -1,0 +1,42 @@
+.btnLeft, .btnRight {
+  background-color: #fff;
+  border: 2px solid #c30000;
+  border-radius: 30px;
+  box-shadow: #c30000 2px 2px 0 0;
+  color: #c30000;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btnLeft:active {
+  background-color: #ff3d00;
+  box-shadow: #c30000 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+.btnLeft:hover {
+  background-color: #ff3d00;
+  color: #fff;
+
+}
+.btnRight:active {
+  background-color: #ff3d00;
+  box-shadow: #c30000 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+.btnRight:hover {
+  background-color: #ff3d00;
+  color: #fff;
+}
+
+

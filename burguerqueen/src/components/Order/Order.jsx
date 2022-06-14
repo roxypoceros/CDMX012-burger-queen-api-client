@@ -1,11 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import ProductsAPI from "../ProductsAPI/ProductsAPI";
 import "./Order.css";
+import GeneralBtn from "../GeneralBtn/GeneralBtn";
+import ItemsOrdered from "../ItemsOrdered/ItemsOrdered";
+import DateAndHour from "../DateAndHour/DateAndHour";
 
 function Order() {
+    const [products, setProducts] = useState()
+
+    const showBreakfast = () => {
+        const breakfastProducts = products.filter(product => product.type==="breakfast");
+        setProducts(breakfastProducts)
+    }
+
+    const showDinner = () => {
+        const dinnerProducts = products.filter(product => product.type==="dinner");
+        setProducts(dinnerProducts)
+    }
+    // console.log(`productos dinner products);
 
 
-    
     return (
         <>
             <div className="mainContainer">
@@ -14,8 +28,17 @@ function Order() {
 
                         <section className="menuBtns">
                             <h1>Menu:</h1>
-                            <button className="btnBreakfast">Desayuno</button>
-                            <button className="btnDinner">Comida/Cena</button>
+                            <GeneralBtn
+                                btnText="Desayuno"
+                                kindOfBtn={true}
+                                handleClick={showBreakfast}
+                            />
+                            <GeneralBtn
+                                btnText="Comida/Cena"
+                                kindOfBtn={false}
+                                handleClick={showDinner}
+                            />
+
                         </section>
 
                         <section className="clientTable">
@@ -37,18 +60,20 @@ function Order() {
 
 
                     </section>
-                    <section className="lowLeftSection"> <ProductsAPI/></section>
+                    <section className="lowLeftSection"> 
+                        <ProductsAPI products={products} setProducts={setProducts}/>
+                    </section>
                 </section>
-                <section className="rightSection"> 
-                <h1>Fecha:</h1>
-                <h1>Hora:</h1>
-                <h1>Cliente:__________</h1>
-                <h1>Mesa:__________</h1>
+                <section className="rightSection">
+                    <h1><DateAndHour/> </h1>
+                    <h1>Hora:</h1>
+                    <h1>Cliente:__________</h1>
+                    <h1>Mesa:__________</h1>
+
+                    <ItemsOrdered />
 
 
-
-
-                 </section>
+                </section>
             </div>
         </>
     );

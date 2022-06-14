@@ -1,0 +1,50 @@
+.btnAdd, .btnRest {
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+  border: 2px solid #c30000;
+  box-shadow: #c30000 2px 2px 0 0;
+  color: #c30000;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 2px;
+  line-height: 10px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btnAdd{
+  border-radius: 25px 0px 0px 25px;
+}
+.btnRest{
+  border-radius: 0px 25px 25px 0px;
+}
+
+.btnAdd:active {
+  background-color: #FFA06D;
+  box-shadow: #c30000 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+.btnAdd:hover {
+  background-color: #FFA06D;
+  color: #fff;
+
+}
+.btnRest:active {
+  background-color: #FFA06D;
+  box-shadow: #c30000 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+.btnRest:hover {
+  background-color: #FFA06D;
+  color: #fff;
+}
+
+
